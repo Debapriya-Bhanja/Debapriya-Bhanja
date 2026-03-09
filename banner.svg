@@ -1,15 +1,19 @@
 <svg width="1200" height="350" viewBox="0 0 1200 350" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
-  <!-- Professional Dark Gradient -->
+  <!-- Animated Gradient Background -->
   <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#0f172a"/>
-    <stop offset="100%" stop-color="#1e293b"/>
+    <stop offset="0%" stop-color="#0f2027">
+      <animate attributeName="stop-color" values="#0f2027;#1f4037;#0f2027" dur="10s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#2c5364">
+      <animate attributeName="stop-color" values="#2c5364;#16222a;#2c5364" dur="10s" repeatCount="indefinite"/>
+    </stop>
   </linearGradient>
 
   <!-- Glow -->
   <filter id="glow">
-    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
     <feMerge>
       <feMergeNode in="coloredBlur"/>
       <feMergeNode in="SourceGraphic"/>
@@ -20,141 +24,106 @@
 <!-- Background -->
 <rect width="1200" height="350" fill="url(#bg)" />
 
-<!-- Name -->
-<text x="50%" y="140" text-anchor="middle"
-      font-size="50"
+<!-- Center Name -->
+<text x="50%" y="150" text-anchor="middle"
+      font-size="52"
       font-family="Verdana"
       fill="white"
       filter="url(#glow)">
   Debapriya Bhanja
 </text>
 
-<!-- Animated Rotating Text -->
 <text x="50%" y="190" text-anchor="middle"
-      font-size="26"
+      font-size="22"
       font-family="Courier New"
-      fill="#38bdf8">
-
-  <tspan>
-    Full Stack Developer
-    <animate attributeName="opacity"
-             values="1;0;0;0;0;0;0;0"
-             dur="16s"
-             repeatCount="indefinite"/>
-  </tspan>
-
-  <tspan>
-    Java
-    <animate attributeName="opacity"
-             values="0;1;0;0;0;0;0;0"
-             dur="16s"
-             repeatCount="indefinite"
-             begin="2s"/>
-  </tspan>
-
-  <tspan>
-    C++
-    <animate attributeName="opacity"
-             values="0;0;1;0;0;0;0;0"
-             dur="16s"
-             repeatCount="indefinite"
-             begin="4s"/>
-  </tspan>
-
-  <tspan>
-    Python
-    <animate attributeName="opacity"
-             values="0;0;0;1;0;0;0;0"
-             dur="16s"
-             repeatCount="indefinite"
-             begin="6s"/>
-  </tspan>
-
-  <tspan>
-    C
-    <animate attributeName="opacity"
-             values="0;0;0;0;1;0;0;0"
-             dur="16s"
-             repeatCount="indefinite"
-             begin="8s"/>
-  </tspan>
-
-  <tspan>
-    DSA
-    <animate attributeName="opacity"
-             values="0;0;0;0;0;1;0;0"
-             dur="16s"
-             repeatCount="indefinite"
-             begin="10s"/>
-  </tspan>
-
-  <tspan>
-    Git
-    <animate attributeName="opacity"
-             values="0;0;0;0;0;0;1;0"
-             dur="16s"
-             repeatCount="indefinite"
-             begin="12s"/>
-  </tspan>
-
-  <tspan>
-    GitHub
-    <animate attributeName="opacity"
-             values="0;0;0;0;0;0;0;1"
-             dur="16s"
-             repeatCount="indefinite"
-             begin="14s"/>
-  </tspan>
-
+      fill="#00ffcc">
+  MERN Stack Learner | Full Stack Developer
 </text>
 
-<!-- Floating Logos -->
-<!-- React -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-       x="100" y="60" width="50">
+<!-- Floating Tech Tags Function -->
+<!-- MERN -->
+<text x="100" y="60" fill="#61DBFB" font-size="20">
+  React
   <animate attributeName="y" values="60;40;60" dur="6s" repeatCount="indefinite"/>
-</image>
+</text>
 
-<!-- Node -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-       x="1050" y="70" width="50">
-  <animate attributeName="y" values="70;50;70" dur="7s" repeatCount="indefinite"/>
-</image>
+<text x="1050" y="80" fill="#68A063" font-size="20">
+  Node.js
+  <animate attributeName="y" values="80;60;80" dur="7s" repeatCount="indefinite"/>
+</text>
 
-<!-- MongoDB -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-       x="950" y="270" width="50">
-  <animate attributeName="y" values="270;250;270" dur="8s" repeatCount="indefinite"/>
-</image>
+<text x="950" y="300" fill="#4DB33D" font-size="20">
+  MongoDB
+  <animate attributeName="y" values="300;280;300" dur="8s" repeatCount="indefinite"/>
+</text>
 
-<!-- Java -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-       x="600" y="260" width="50">
-  <animate attributeName="y" values="260;240;260" dur="6s" repeatCount="indefinite"/>
-</image>
+<text x="150" y="280" fill="#ffffff" font-size="20">
+  Express.js
+  <animate attributeName="y" values="280;260;280" dur="7s" repeatCount="indefinite"/>
+</text>
 
-<!-- Python -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-       x="400" y="250" width="50">
-  <animate attributeName="y" values="250;230;250" dur="7s" repeatCount="indefinite"/>
-</image>
+<!-- Frontend -->
+<text x="300" y="70" fill="#E34F26" font-size="18">
+  HTML
+  <animate attributeName="y" values="70;50;70" dur="6s" repeatCount="indefinite"/>
+</text>
 
-<!-- C++ -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-       x="900" y="150" width="50">
-  <animate attributeName="y" values="150;130;150" dur="6s" repeatCount="indefinite"/>
-</image>
+<text x="380" y="300" fill="#264de4" font-size="18">
+  CSS
+  <animate attributeName="y" values="300;280;300" dur="5s" repeatCount="indefinite"/>
+</text>
 
-<!-- Git -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-       x="250" y="200" width="50">
+<text x="1080" y="200" fill="#f7df1e" font-size="18">
+  JavaScript
   <animate attributeName="y" values="200;180;200" dur="6s" repeatCount="indefinite"/>
-</image>
+</text>
 
-<!-- GitHub -->
-<image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-       x="1050" y="200" width="50" filter="url(#glow)">
-  <animate attributeName="y" values="200;180;200" dur="7s" repeatCount="indefinite"/>
-</image>
+<text x="450" y="50" fill="#38BDF8" font-size="18">
+  Tailwind CSS
+  <animate attributeName="y" values="50;30;50" dur="7s" repeatCount="indefinite"/>
+</text>
+
+<text x="750" y="320" fill="#7952B3" font-size="18">
+  Bootstrap
+  <animate attributeName="y" values="320;300;320" dur="6s" repeatCount="indefinite"/>
+</text>
+
+<!-- Programming Languages -->
+<text x="80" y="200" fill="#00599C" font-size="18">
+  C++
+  <animate attributeName="y" values="200;180;200" dur="6s" repeatCount="indefinite"/>
+</text>
+
+<text x="1100" y="150" fill="#A8B9CC" font-size="18">
+  C
+  <animate attributeName="y" values="150;130;150" dur="5s" repeatCount="indefinite"/>
+</text>
+
+<text x="600" y="60" fill="#f89820" font-size="18">
+  Java
+  <animate attributeName="y" values="60;40;60" dur="6s" repeatCount="indefinite"/>
+</text>
+
+<text x="600" y="330" fill="#3776AB" font-size="18">
+  Python
+  <animate attributeName="y" values="330;310;330" dur="7s" repeatCount="indefinite"/>
+</text>
+
+<!-- Tools -->
+<text x="250" y="180" fill="#F1502F" font-size="18">
+  Git
+  <animate attributeName="y" values="180;160;180" dur="6s" repeatCount="indefinite"/>
+</text>
+
+<text x="850" y="170" fill="#ffffff" font-size="18">
+  GitHub
+  <animate attributeName="y" values="170;150;170" dur="7s" repeatCount="indefinite"/>
+</text>
+
+<!-- DSA -->
+<text x="520" y="250" fill="#00ff99" font-size="20">
+  Data Structures & Algorithms
+  <animate attributeName="y" values="250;230;250" dur="8s" repeatCount="indefinite"/>
+</text>
 
 </svg>
