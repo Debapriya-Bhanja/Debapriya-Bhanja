@@ -11,6 +11,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=25&center=true&vCenter=true&width=600&lines=Computer+Science+Engineering+Student;Full+Stack+Developer;MERN+Stack+Learner;Problem+Solver;Building+Cool+Web+Projects+🚀">
 </p>
 
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:243B55,100:141E30&height=150&section=footer"/>
+</p>
 ---
 
 ## 🌟 About Me
