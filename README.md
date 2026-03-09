@@ -35,11 +35,35 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=debapriya-bhanja&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=debapriya-bhanja&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+<h1>📈 Contribution Graph </h1>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Debapriya-Bhanja&theme=react-dark"/>
+</p>
+
+<h1>📊 Detailed Status Section </h1>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Debapriya-Bhanja&theme=radical"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Debapriya-Bhanja&theme=radical"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Debapriya-Bhanja&theme=radical"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Debapriya-Bhanja&theme=radical"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Debapriya-Bhanja&theme=radical&utcOffset=5.5"/>
+</p>
+
 <hr>
+
 
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
+
 
 ---
 [![](https://visitcount.itsvg.in/api?id=debapriya-bhanja&icon=0&color=0)](https://visitcount.itsvg.in)
@@ -54,6 +78,7 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Debapriya-Bhanja&icon=0&color=0)](https://visitcount.itsvg.in)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
