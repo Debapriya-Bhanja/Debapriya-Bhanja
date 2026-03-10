@@ -22,7 +22,7 @@
 - 📚 Always exploring new technologies
 - ⚡ Fun fact: I love turning ideas into real-world projects!
   
- <p align="right">
+ <p align="center">
   <img  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" width="420"/>
 </p>
 
