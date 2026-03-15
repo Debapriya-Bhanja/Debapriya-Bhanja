@@ -97,9 +97,3 @@
 
 ---
 
-## ✨ Quote I Believe In
-> "Code. Learn. Build. Repeat."
-
----
-
-⭐️ From [Debapriya] (https://github.com/Debapriya-Bhanja)
