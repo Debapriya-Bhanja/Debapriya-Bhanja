@@ -34,6 +34,13 @@
 
 ---
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Profile-Visitors-black?style=for-the-badge&logo=github" />
+  <img src="https://komarev.com/ghpvc/?username=Debapriya-Bhanja&color=brightgreen&style=for-the-badge" />
+</p>
+
+<hr>
+
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/people/Debapriya-Bhanja/pfbid0zcFMx1YaAjqgeoRxb7UrpkBT7QRvRbpnvhSwKkQf4xNg1oWWV5FcmW7jdR6aJcQ6l/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/debapriya.py) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/debapriya-bhanja) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/31915158/debapriya-bhanja) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/BhanjaDeba57583) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/@WeeklyAffairsOfficial)
 ### 📫 Contact Me
