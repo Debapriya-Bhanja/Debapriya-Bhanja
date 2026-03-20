@@ -88,7 +88,7 @@
 
 <td align="center" width="50%">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Debapriya-Bhanja&theme=react-dark" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Debapriya-Bhanja&theme=react-dark"  width="100%" height="250"/>
 
 </td>
 </tr>
