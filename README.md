@@ -13,6 +13,9 @@
 
 
 ---
+<table>
+<tr>
+<td>
 
 ## 🌟 About Me
 - 🎓 I'm a Computer Science Engineering student
@@ -21,10 +24,16 @@
 - 🛠️ Interested in Open Source Contributions
 - 📚 Always exploring new technologies
 - ⚡ Fun fact: I love turning ideas into real-world projects!
-  
+
+</td>
+
+  <td>
  <p align="center">
   <img  src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" width="420"/>
 </p>
+  </td>
+  </tr>
+  </table>
 
 ---
 
